@@ -47,3 +47,4 @@ Tips for file naming files and folders:
 ## Members + Contriutions
 Patrick Ng: search.html
 Spence Morrison: shoppinglist.html
+Yang Sun: Category.html
