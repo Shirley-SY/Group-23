@@ -1,4 +1,4 @@
-## My Web Application (Title)
+## Team 23 Application (Title)
 
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -6,12 +6,14 @@
 
 ## General Info
 This browser based web application to ...
+Team members:
 	
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
 * JavaScript
 * Bootstrap 
+* Git
 * ...
 	
 ## Content
@@ -42,3 +44,6 @@ Tips for file naming files and folders:
 * use lowercase with no spaces
 * use dashes (not underscore) for word separation
 
+## Members + Contriutions
+Patrick Ng: search.html
+Spence Morrison: shoppinglist.html
