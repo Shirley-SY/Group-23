@@ -1,4 +1,4 @@
-## My Web Application (Title)
+## Team 23 Application (Title)
 
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -6,12 +6,15 @@
 
 ## General Info
 This browser based web application to ...
+Team members:
+Patrick
 	
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
 * JavaScript
 * Bootstrap 
+* Git
 * ...
 	
 ## Content
