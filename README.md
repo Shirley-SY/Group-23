@@ -7,7 +7,6 @@
 ## General Info
 This browser based web application to ...
 Team members:
-Patrick
 	
 ## Technologies
 Technologies used for this project:
@@ -46,5 +45,5 @@ Tips for file naming files and folders:
 * use dashes (not underscore) for word separation
 
 ## Members + Contriutions
-Spence Morrison
-shoppinglist.html
+Patrick Ng: search.html
+Spence Morrison: shoppinglist.html
