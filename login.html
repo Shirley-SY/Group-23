@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Search</title>
+    <title>Login</title>
     <meta name="comp1800 boilerplate code" content="my bcit project">
     <meta name="author" content="BCIT">
 
@@ -11,10 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!-- Firebase CSS for Authentication UI -->
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+
     <!-- Optional styles and scripts of your own -->
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
@@ -39,13 +40,9 @@
         </a>
     </nav>
 
-    <!-- Search form -->
-    <div class="search">
-        <img src="images/search.png" alt="search" class="searchIcon">
-        <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
-            <i class="fas fa-search" aria-hidden="true"></i>
-            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
-        </form>
+    <!-- Login widget -->
+    <div class="login">
+        <h1 id="firebaseui-auth-container"></h1>
     </div>
 
     <!-- Footer task bar -->
@@ -97,9 +94,17 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!--------------------------------------------------------------------->
-    <!-- JS files: Your own JavaScript functions included here    -->
-    <!--------------------------------------------------------------------->
+    <!-- Firebase libraries from CDN -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+
+    <!-- !!Replace with our own database later!!  -->
+    <script src="scripts/firebase_api_patrick.js"> </script>
+
+    <!-- Your own JavaScript functions included here    -->
+    <script src="scripts/login.js"></script>
 
 </body>
 
