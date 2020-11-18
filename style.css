@@ -71,7 +71,18 @@
     border: 0px;
 }
 
+
 #Category {
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+    margin: 0 auto;
+    padding-top: 4em;
+    text-align: center;
+}
+#electronicpage {
     width: 80%;
     height: 70%;
     display: grid;
@@ -83,6 +94,7 @@
 }
 
 #Category button{
+    
     margin-left: 1em;
     border-style: solid;
     border-color: rgb(134, 123, 123);
@@ -96,6 +108,7 @@
     #electronicpage{
         grid-template-columns: 1fr;
     }
+   
     
  }
 
@@ -106,6 +119,7 @@
     #electronicpage{
         grid-template-columns: 1fr 1fr;
     }
+    
   }
 
   @media (min-width: 1200px) { 
@@ -115,10 +129,13 @@
     #electronicpage{
         grid-template-columns: 1fr 1fr;
     }
+   
   }
   .navbar-dark .navbar-brand {
     color: rgb(241, 233, 233);
   }
+
+  
 
   
   #backicon{
